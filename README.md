@@ -42,3 +42,40 @@ To get started with the project, follow these steps:
    git clone https://github.com/ankan24/Realtime_Chat_App.git
    cd Realtime_Chat_App
 
+2. Installation
+
+For the Backend:
+```bash
+cd backend
+npm install
+```
+For the Frontend:
+```bash
+cd frontend
+npm install
+```
+3. Environment Variables
+
+Create a .env file in the server directory and add the following:
+MONGODB_URI=your_mongodb_uri
+JWT_SECRET=your_jwt_secret
+
+## Usage
+Start the Backend Server:
+```bash
+cd backend
+npm run dev
+```
+Start the Frontend Application:
+```bash
+cd frontend
+npm run dev
+```
+Open your browser and navigate to http://localhost:3000 to access the chat application.
+
+## Contributing
+Contributions are welcome! Please feel free to submit a pull request or open an issue for any bugs or feature requests.
+
+## License
+This project is licensed under the MIT License - see the LICENSE file for details.
+
