@@ -1,81 +1,42 @@
-﻿# MERN Stack Real-time Chat App 
+# ✨ Full Stack Realtime Chat App ✨
 
-This project is a real-time chat application built using the MERN stack (MongoDB, Express.js, React.js, Node.js) and Socket.io. The application allows users to communicate in real-time, with features such as user authentication, message formatting, and responsive design.
+![Demo App](/frontend/public/screenshot-for-readme.png)
 
-## Table of Contents
+[Video Tutorial on Youtube](https://youtu.be/ntKkVrQqBYY)
 
-- [Features](#features)
-- [Technologies Used](#technologies-used)
-- [Installation](#installation)
-- [Usage](#usage)
-- [Contributing](#contributing)
-- [License](#license)
+Highlights:
 
-## Features
+- 🌟 Tech stack: MERN + Socket.io + TailwindCSS + Daisy UI
+- 🎃 Authentication && Authorization with JWT
+- 👾 Real-time messaging with Socket.io
+- 🚀 Online user status
+- 👌 Global state management with Zustand
+- 🐞 Error handling both on the server and on the client
+- ⭐ At the end Deployment like a pro for FREE!
+- ⏳ And much more!
 
-- User authentication with JWT
-- Real-time messaging using Socket.io
-- Responsive UI built with Tailwind CSS
-- Image upload for user avatars
-- Dynamic sidebar for user management
-- Automatic scrolling to the latest messages
+### Setup .env file
 
-## Technologies Used
+```js
+MONGODB_URI=...
+PORT=5001
+JWT_SECRET=...
 
-- **Frontend:**
-  - React.js
-  - Tailwind CSS
-  - Socket.io
+CLOUDINARY_CLOUD_NAME=...
+CLOUDINARY_API_KEY=...
+CLOUDINARY_API_SECRET=...
 
-- **Backend:**
-  - Node.js
-  - Express.js
-  - MongoDB
-  - Socket.io
-
-## Installation
-
-To get started with the project, follow these steps:
-
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/ankan24/Realtime_Chat_App.git
-   cd Realtime_Chat_App
-
-2. Installation
-
-For the Backend:
-```bash
-cd backend
-npm install
+NODE_ENV=development
 ```
-For the Frontend:
-```bash
-cd frontend
-npm install
+
+### Build the app
+
+```shell
+npm run build
 ```
-3. Environment Variables
 
-Create a .env file in the server directory and add the following:
-MONGODB_URI=your_mongodb_uri
-JWT_SECRET=your_jwt_secret
+### Start the app
 
-## Usage
-Start the Backend Server:
-```bash
-cd backend
-npm run dev
+```shell
+npm start
 ```
-Start the Frontend Application:
-```bash
-cd frontend
-npm run dev
-```
-Open your browser and navigate to http://localhost:5173 to access the chat application.
-
-## Contributing
-Contributions are welcome! Please feel free to submit a pull request or open an issue for any bugs or feature requests.
-
-## License
-This project is licensed under the MIT License - see the LICENSE file for details.
-
